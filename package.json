@@ -2,31 +2,33 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://4eJIoBeG.github.io/parcel-project-template",
+  "homepage": "https://4eJIoBeG.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4eJIoBeG/parcel-project-template.git"
+    "url": "git+https://github.com/4eJIoBeG/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Paul <pavelshashenko@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4eJIoBeG/parcel-project-template/issues"
+    "url": "https://github.com/4eJIoBeG/goit-js-hw-10/issues"
   },
   "dependencies": {
     "handlebars-loader": "^1.7.2",
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "handlebars": "^4.7.7",
+    "parcel": "^2.7.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4",
-    "handlebars": "^4.7.7"
+    "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
